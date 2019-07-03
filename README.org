@@ -1,46 +1,38 @@
 #+TITLE: rectangle layer
 
-# The maximum height of the logo should be 200 pixels.
-[[img/rectangle.png]]
+[[cc-rectangle.png]]
 
-# TOC links should be GitHub style anchors.
 * Table of Contents                                        :TOC_4_gh:noexport:
 - [[#description][Description]]
-- [[#install][Install]]
 - [[#key-bindings][Key bindings]]
+- [[#install][Install]]
 
 * Description
-This layer does wonderful things:
-  - thing01
-
-* Install
-To use this configuration layer, add it to your =~/.spacemacs=. You will need to
-add =rectangle= to the existing =dotspacemacs-configuration-layers= list in this
-file.
+This layer provides Spacemacs keybindings to Emacs' brilliant but unkeybound rectangle manipulation functions
 
 * Key bindings
 
 | Key Binding | Description                       |
 |-------------+-----------------------------------|
-| [i          | string-insert-rectangle           |
-| [s          | string-rectangle                  |
-| [m          | rectangle-mark-mode               |
-| [e          | rectangle-exchange-point-and-mark |
-| [n          | rectangle-next-line               |
-| [p          | rectangle-previous-line           |
-| [N          | rectangle-previous-line           |
-| [r          | rectangle-right-char              |
-| [l          | rectangle-left-char               |
-| [v          | rectangle-preview                 |
-| [c          | rectangle-number-lines            |
-| [k          | kill-rectangle                    |
-| [y          | yank-rectangle                    |
-| [o          | open-rectangle                    |
-| [!          | clear-rectangle                   |
-| [c          | close-rectangle                   |
-| [d          | delete-rectangle                  |
-# Use GitHub URLs if you wish to link a Spacemacs documentation file or its heading.
-# Examples:
-# [[https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org#sessions]]
-# [[https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bfun/emoji/README.org][Link to Emoji layer README.org]]
-# If space-doc-mode is enabled, Spacemacs will open a local copy of the linked file.
+| SPC [i      | string-insert-rectangle           |
+| SPC [s      | string-rectangle                  |
+| SPC [m      | rectangle-mark-mode               |
+| SPC [e      | rectangle-exchange-point-and-mark |
+| SPC [n      | rectangle-next-line               |
+| SPC [p      | rectangle-previous-line           |
+| SPC [N      | rectangle-previous-line           |
+| SPC [r      | rectangle-right-char              |
+| SPC [l      | rectangle-left-char               |
+| SPC [v      | rectangle-preview                 |
+| SPC [c      | rectangle-number-lines            |
+| SPC [k      | kill-rectangle                    |
+| SPC [y      | yank-rectangle                    |
+| SPC [o      | open-rectangle                    |
+| SPC [!      | clear-rectangle                   |
+| SPC [c      | close-rectangle                   |
+| SPC [d      | delete-rectangle                  |
+
+* Install
+To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+add =rectangle= to the existing =dotspacemacs-configuration-layers= list in this
+file.
