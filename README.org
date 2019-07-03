@@ -6,6 +6,7 @@
 - [[#description][Description]]
 - [[#key-bindings][Key bindings]]
 - [[#install][Install]]
+- [[#issues][Issues]]
 
 * Description
 This layer provides Spacemacs keybindings to Emacs' brilliant but unkeybound rectangle manipulation functions
@@ -36,3 +37,8 @@ This layer provides Spacemacs keybindings to Emacs' brilliant but unkeybound rec
 To use this configuration layer, add it to your =~/.spacemacs=. You will need to
 add =rectangle= to the existing =dotspacemacs-configuration-layers= list in this
 file.
+
+* Issues
+This code does not play nice with Emacs Lisp or Spacemacs conventions. Pull
+requests appreciated. If you write your own skeleton, and it is decently
+conservative for that language/file type, send it!
