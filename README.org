@@ -1,3 +1,4 @@
+Spacemacs now has rectangle functions in master! No need for a special layer.
 #+TITLE: rectangle layer
 
 [[cc-rectangle.png]]
